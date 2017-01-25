@@ -4,6 +4,9 @@ C# - da dəyişənlər iki hissəyə bölünür: 1) Qlobal dəyişənlər 2)  Lo
 - Qlobal dəyişənlər bir sinfə aid dəyişənlərdir. Qlobal dəyişənləri yerləşdiyi sinfin hər bir nöqtəsindən müraciət etmək olur. 
 Lokal dəyişənlər, bir sinif daxilindəki hər hansısa kontekst içərisində təyin olunan və ancaq həmin kontekst içərisində müraciət edilə bilən dəyişənlərdir. Məsələn metodların parametrləri, metodların gövdələrində təyin olunan dəyişənlər lokal dəyişənlərdir. Bir lokal dəyişənə, bütün sinif daxilində müraciət etmək olmaz.
 
+Sual: Ən çox istifadə olunan məlumat növlərini izahlı şəkildə yazın
+məlumat növlərinə Boolean, integer, string, character, floating, object
+
 Sual: Riyazi operatorlar hansilardir? Fərqli proqramlaşdırma dillərində bu operatorlar arasında hansı fərqli xüsusiyətlər var?
 Arithmetic Operators (hesab operatoru):
 + iki ədədin cəmi
