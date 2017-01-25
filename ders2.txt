@@ -1,10 +1,20 @@
-Sual-1: Dəyişən (Variable) nədir?
+Sual: Dəyişən (Variable) nədir?
 Dəyişən özündə hansısa bir məlumatı yaddaşda (RAM - da) saxlayır. Beləliklə, bir dəyişən yaddaşın bir hissəsidir. Məs, int a = 5; sətri yaddaşda 4 bayt həcmində adı ― “a” olan bir sahə ayırır və həmin yaddaş sahəsinə 5 informasiyasını yükləyir.
 C# - da dəyişənlər iki hissəyə bölünür: 1) Qlobal dəyişənlər 2)  Lokal dəyişənlər 
 - Qlobal dəyişənlər bir sinfə aid dəyişənlərdir. Qlobal dəyişənləri yerləşdiyi sinfin hər bir nöqtəsindən müraciət etmək olur. 
 Lokal dəyişənlər, bir sinif daxilindəki hər hansısa kontekst içərisində təyin olunan və ancaq həmin kontekst içərisində müraciət edilə bilən dəyişənlərdir. Məsələn metodların parametrləri, metodların gövdələrində təyin olunan dəyişənlər lokal dəyişənlərdir. Bir lokal dəyişənə, bütün sinif daxilində müraciət etmək olmaz.
 
-Sual-2 Məntiq operatorları hansılardır? Nümunələr üzərində izah edin
+Sual: Riyazi operatorlar hansilardir? Fərqli proqramlaşdırma dillərində bu operatorlar arasında hansı fərqli xüsusiyətlər var?
+Arithmetic Operators (hesab operatoru):
++ iki ədədin cəmi
+- ədədlərin fərqi
+* ədədlərin vurulması
+/ ədədlərin bölünməsi
+% bölünmənin qalığı
+++ Artım operator biri tam dəyərini artırır
+-- Azalma operator biri tam dəyəri azalır
+
+Sual: Məntiq operatorları hansılardır? Nümunələr üzərində izah edin
 - || (və ya), && (və), !(yox)
 || (və ya) operatoru
 - Əgər arqumentlərdən
@@ -28,7 +38,7 @@ Bu operator argumenti false-sa true-ya gətirir, true-sa
 false-a
 
 
-Sual – 3. Şərt operatorları hansılardır?
+Sual: Şərt operatorları hansılardır?
 Şərt operatorları: if,  ? :
 
 if (əgər) operatoru
