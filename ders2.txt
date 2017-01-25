@@ -1,0 +1,52 @@
+Sual-1: Dəyişən (Variable) nədir?
+Dəyişən özündə hansısa bir məlumatı yaddaşda (RAM - da) saxlayır. Beləliklə, bir dəyişən yaddaşın bir hissəsidir. Məs, int a = 5; sətri yaddaşda 4 bayt həcmində adı ― “a” olan bir sahə ayırır və həmin yaddaş sahəsinə 5 informasiyasını yükləyir.
+C# - da dəyişənlər iki hissəyə bölünür: 1) Qlobal dəyişənlər 2)  Lokal dəyişənlər 
+- Qlobal dəyişənlər bir sinfə aid dəyişənlərdir. Qlobal dəyişənləri yerləşdiyi sinfin hər bir nöqtəsindən müraciət etmək olur. 
+Lokal dəyişənlər, bir sinif daxilindəki hər hansısa kontekst içərisində təyin olunan və ancaq həmin kontekst içərisində müraciət edilə bilən dəyişənlərdir. Məsələn metodların parametrləri, metodların gövdələrində təyin olunan dəyişənlər lokal dəyişənlərdir. Bir lokal dəyişənə, bütün sinif daxilində müraciət etmək olmaz.
+
+Sual-2 Məntiq operatorları hansılardır? Nümunələr üzərində izah edin
+- || (və ya), && (və), !(yox)
+|| (və ya) operatoru
+- Əgər arqumentlərdən
+
+-hec olmasa biri duzdur
+-‘true’ qaytarır,
+-hec biri duz deyilsə
+-‘false’ qaytarır
+|| operatoru soldan-sağa oxunur, true olan şərtə qəlib catanda ardı artıq
+oxunmur.
+
+&& (və) operatoru
+- || operatorundan fərqli olaraq && operatoru - true cavabını
+yalnız o vaxt verir, əgər butun şərtlər - true olarsa. Birinci şərt
+false olsa artıq işini dayandırır və false gostərir.
+-  && operatorun prioriteti (ağırlıqı) || operatorundan
+boyukdur.
+
+! (deyil) operatoru
+Bu operator argumenti false-sa true-ya gətirir, true-sa
+false-a
+
+
+Sual – 3. Şərt operatorları hansılardır?
+Şərt operatorları: if,  ? :
+
+if (əgər) operatoru
+-	 if (0) { … } // 0 - false bərabər olunur
+-	if (1) { … } // 0 - true bərabər olunur
+-	 İstənilən dəyişəni şərt kimi istifadə etmək olar:
+-	var year = 2012;
+-	 if (year) { … };
+
+Şərt operatorunun sintaksisi aşağıdakı kimidir:
+
+if (şərt) {
+	“yerinə yetirilməli əməliyyatlar”
+} else {
+	“digər əməliyyatlar”
+}
+
+? : operatoru
+-	şərt ? dəyər1 : dəyər2
+
+
